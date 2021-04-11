@@ -5,7 +5,7 @@ import {
   View,
   Text,
   AppRegistry
-} from 'react-native';
+} from 'react';
 
 import Style from './src/Style';
 import InputButton from './src/InputButton';
@@ -18,7 +18,7 @@ const inputButtons = [
     [0, '.', '=', '+']
 ];
 
-class ReactCalculator extends Component {
+class ReactCalculator extends React.Component {
 
     render() {
         return (
@@ -53,6 +53,9 @@ class ReactCalculator extends Component {
         }
 
         return views;
+    }
+    _onInputButtonPressed(input) {
+        alert(input)
     }
 
 }

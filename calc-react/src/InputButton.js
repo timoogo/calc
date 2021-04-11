@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {
     View,
     Text
-} from 'react-native';
+} from 'react';
 import TouchableHighlight from './TouchableHighlight';
 import Style from './Style';
 

@@ -1,0 +1,3 @@
+[submodule "calc-as"]
+	path = calc-as
+	url = git@github.com:timoogo/calc-as.git
